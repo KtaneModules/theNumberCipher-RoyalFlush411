@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>The Number Cipher — Keep Talking and Nobody Explodes Module</title>
+    <meta name="viewport" content="initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type='text/css' href="css/font.css">
+    <script src='js/highlighter.js'></script>
+
+    <style>
+        .centered-image {
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="section">
+        <div class="page page-bg-05">
+            <div class="page-header">
+                <span class="page-header-doc-title">Keep Talking and Nobody Explodes Mod</span>
+                <span class="page-header-section-title translatable">The Number Cipher</span>
+            </div>
+            <div class="page-content">
+                <img src="img/Component/The_Number_Cipher.svg" class="diagram">
+                <h2 class='translatable'>On the Subject of The Number Cipher</h2>
+                <p class="flavour-text translatable">Nobody is quite sure why this thing resets every few seconds. It's probably for health and safety reasons.</p>
+
+                <ul>
+                    <li class='translatable'>The module consists of three rotating numbered cubes, three coloured lights and an execution array.</li>
+                    <li class='translatable'>To disarm the module, input the correct digit into the array in accordance with the below rules and press the execute button.</li>
+                    <li class='translatable'>The number cipher will automatically reset every 20-40 seconds; the timer bars will activate 10 seconds prior to the reset.</li>
+                    <li class='translatable'>The reset will potentially change the light colours and rotate the numbered cubes.</li>
+                    <li class='translatable'>Inputting an incorrect digit will lock the module until the next reset and cause a strike.</li>
+                    <li class='translatable'>Use the below Venn diagram and table to determine the correct digit.</li>
+                  </ul>
+                  <center><img src="img/Venn.png" width="600"></center>
+
+
+            </div>
+            <div class="page-footer relative-footer translatable">Page 1 of 2</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="page page-bg-01">
+            <div class="page-header">
+                <span class="page-header-doc-title">Keep Talking and Nobody Explodes Mod</span>
+                <span class="page-header-section-title translatable">The Number Cipher</span>
+            </div>
+            <div class="page-content">
+
+              <center>
+              <table class='condition-table'>
+                  <tr>
+                      <th class='translatable'>Letter</th>
+                      <th class='translatable'>Formula</th>
+                      <th class='translatable'>Letter</th>
+                      <th class='translatable'>Formula</th>
+                  </tr>
+                  <tr>
+                      <td class='translatable'>A</td>
+                      <td class='translatable'>The digital root of the sum of X and the third digit, where X is the product of the first two digits</td>
+                      <td class='translatable'>E</td>
+                      <td class='translatable'>The digital root of the sum of X and the first digit, where X is the product of the second two digits</td>
+
+                    </tr>
+                    <tr>
+                        <td class='translatable'>B</td>
+                        <td class='translatable'>The first digit plus the two-digit number created by the second two digits, modulo 10</td>
+                        <td class='translatable'>F</td>
+                        <td class='translatable'>The two-digit number created by the first two digits, multipled by the third digit, modulo 10</td>
+                      </tr>
+                      <tr>
+                          <td class='translatable'>C</td>
+                          <td class='translatable'>The first digit multiplied by the two-digit number created by the second two digits, modulo 10</td>
+                          <td class='translatable'>G</td>
+                          <td class='translatable'>The two-digit number created by the first two digits, minus the third digit, modulo 10</td>
+                        </tr>
+                        <tr>
+                            <td class='translatable'>D</td>
+                            <td class='translatable'>The digital root of the product of the digits</td>
+                            <td class='translatable'>H</td>
+                            <td class='translatable'>The digital root of the full displayed number</td>
+                              </tr>
+            </table>
+          </center>
+
+            </div>
+            <div class="page-footer relative-footer translatable">Page 2 of 2</div>
+        </div>
+    </div>
+</body>
+</html>

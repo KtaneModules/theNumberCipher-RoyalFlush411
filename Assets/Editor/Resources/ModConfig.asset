@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615501dbe4f3fe94fbf4b564abb10237, type: 3}
+  m_Name: ModConfig
+  m_EditorClassIdentifier: 
+  id: numberCipher
+  title: The Number Cipher
+  description: 'The Number Cipher 1.1
+
+    Nobody is quite sure why this thing resets every few seconds. It''s probably for
+    health and safety reasons.
+
+
+    Module ID: numberCipher
+
+
+    Created by: Royal_Flu$h
+
+
+    Thanks to Timwi for the manual image.
+
+
+    Manual available here: https://ktane.timwi.de/HTML/The%20Number%20Cipher.html'
+  version: 1.1
+  outputFolder: build
+  previewImage: {fileID: 2800000, guid: 4760158a185b14f05b12d268c4dafdb2, type: 3}

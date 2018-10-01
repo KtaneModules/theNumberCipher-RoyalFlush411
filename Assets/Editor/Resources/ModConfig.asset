@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: numberCipher
   title: The Number Cipher
-  description: 'The Number Cipher 1.1
+  description: 'The Number Cipher 1.2
 
     Nobody is quite sure why this thing resets every few seconds. It''s probably for
     health and safety reasons.
@@ -24,11 +24,13 @@ MonoBehaviour:
 
     Created by: Royal_Flu$h
 
+    TwitchPlays implemented by: KingBranBran
+
 
     Thanks to Timwi for the manual image.
 
 
     Manual available here: https://ktane.timwi.de/HTML/The%20Number%20Cipher.html'
-  version: 1.1
+  version: 1.2
   outputFolder: build
   previewImage: {fileID: 2800000, guid: 4760158a185b14f05b12d268c4dafdb2, type: 3}

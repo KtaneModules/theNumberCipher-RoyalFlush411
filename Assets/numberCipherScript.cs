@@ -307,4 +307,27 @@ public class numberCipherScript : MonoBehaviour
         }
         Debug.LogFormat("[The Number Cipher #{0}] Correct answer: {1}.",moduleId, correctAnswer);
     }
+
+    private string TwitchHelpMessage = @"Use '!{0} submit 1' to submit a number.";
+
+    IEnumerator ProcessTwitchCommand(string command)
+    {
+        var parts = command.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+
+        int clicks = 0;
+        if (parts.Length == 2 && parts[0] == "submit" && parts[1].Length == 1 && "0123456789".Contains(parts[1]))
+        {
+            while (parts[1] != displayedNumber.ToString())
+            {
+                if (clicks > 9) break;
+
+                yield return null;
+                OnCycleRightButton();
+                clicks++;
+                yield return new WaitForSeconds(.1f);
+            }
+
+            OnExecuteButton();
+        }
+    }
 }

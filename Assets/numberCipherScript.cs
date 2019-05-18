@@ -326,7 +326,7 @@ public class numberCipherScript : MonoBehaviour
                 clicks++;
                 yield return new WaitForSeconds(.1f);
             }
-
+            yield return null;
             OnExecuteButton();
         }
     }

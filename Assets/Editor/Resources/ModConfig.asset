@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: numberCipher
   title: The Number Cipher
-  description: 'The Number Cipher 1.3
+  description: 'The Number Cipher 1.31
 
     Nobody is quite sure why this thing resets every few seconds. It''s probably for
     health and safety reasons.
@@ -31,6 +31,6 @@ MonoBehaviour:
 
 
     Manual available here: https://ktane.timwi.de/HTML/The%20Number%20Cipher.html'
-  version: 1.3
+  version: 1.31
   outputFolder: build
   previewImage: {fileID: 2800000, guid: 4760158a185b14f05b12d268c4dafdb2, type: 3}
